@@ -9,14 +9,22 @@
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/banner.css" />
     <link rel="stylesheet" href="css/aboutandfooter.css">
-    <link rel="stylesheet" href="css/skillsection.css">
+    <link rel="stylesheet" href="css/skill-section.css">
   </head>
 
   <style>
     :root {
-      --color-1: #fee715;
+      --color-1: #4aff90;
       --color-2: #545454;
-      --color-3: rgba(255, 227, 67, 0.911);
+      --card-color1: rgb(0, 209, 0);
+
+      --card-color2: rgb(209, 209, 0);
+      --card-color3: rgb(0, 209, 129);
+      --card-color4: rgb(0, 96, 185);
+      --card-color5: rgb(209, 209, 0);
+      --card-color6: rgb(0, 209, 0);
+      --card-color7: rgb(0, 96, 185);
+      --card-color8: rgb(0, 209, 129);
     }
     * {
       margin: 0;
@@ -139,131 +147,135 @@
     </div>
 
     <!-- My Skills -->
-    <div class="skills" id="skills">
-      <h1 class="skills-heading reveal-left">My Skills</h1>
-      <div class="main-card">
-        <div class="card-container">
-          <div class="thecard reveal-left" onclick="Rotatecard1()" id="card1">
-            <div class="thefront">
-              <img src="images/webdev.png" alt="" />
-              <h1>Web Development</h1>
-            </div>
-
-            <div class="theback">
-              <h1>Back of Card</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                aliquam?
-              </p>
+    <div class="skills-container ">
+      <div class="head0 reveal-up">My Skills</div>
+      <div class="card-container">
+          <div class="my-card reveal-left" id="card-1">
+            <img src="images/webdev.png" alt="" id="card-image"/>
+            <hr>
+            <div class="card-data">
+              <div class="head1">My Project 1</div>
+              <div class="head2">
+                Lorem ipsum dolor sit amet consec adipisicing elit. Laborum
+                nostrum, quidem pariatur quam, corrupti libero
+              </div>
+              <div class="head3">
+                <button><a href="http://www.youtube.com/" target="blank">Demo</a></button>
+                <button><a href="http://www.youtube.com/" target="blank">Source Code</a></button>
+              </div>
             </div>
           </div>
-          <div class="thecard reveal-right" onclick="Rotatecard2()" id="card2">
-            <div class="thefront">
-              <img src="images/appdev.png" alt="" />
-              <h1>Application Development</h1>
+      
+          <div class="my-card reveal-down" id="card-2">
+            <img src="images/appdev.png" alt="" id="card-image"/>
+            <hr>
+            <div class="card-data">
+              <div class="head1">My Project 2</div>
+              <div class="head2">
+                Lorem ipsum dolor sit amet consec adipisicing elit. Laborum
+                nostrum, quidem pariatur quam, corrupti libero
+              </div>
+              <div class="head3">
+                <button><a href="http://www.youtube.com/" target="blank">Demo</a></button>
+                <button><a href="http://www.youtube.com/" target="blank">Source Code</a></button>
+              </div>
             </div>
-
-            <div class="theback">
-              <h1>Back of Card</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                aliquam?
-              </p>
+          </div>
+      
+          <div class="my-card reveal-left" id="card-3">
+            <img src="images/digitalmarketing.png" alt="" id="card-image"/>
+            <hr>
+            <div class="card-data">
+              <div class="head1">My Project 3</div>
+              <div class="head2">
+                Lorem ipsum dolor sit amet consec adipisicing elit. Laborum
+                nostrum, quidem pariatur quam, corrupti libero
+              </div>
+              <div class="head3">
+                <button><a href="http://www.youtube.com/" target="blank">Demo</a></button>
+                <button><a href="http://www.youtube.com/" target="blank">Source Code</a></button>
+              </div>
+            </div>
+          </div>
+      
+          <div class="my-card reveal-up" id="card-4">
+            <img src="images/softwaredev.png" alt="" id="card-image"/>
+            <hr>
+            <div class="card-data">
+              <div class="head1">My Project 4</div>
+              <div class="head2">
+                Lorem ipsum dolor sit amet consec adipisicing elit. Laborum
+                nostrum, quidem pariatur quam, corrupti libero
+              </div>
+              <div class="head3">
+                <button><a href="http://www.youtube.com/" target="blank">Demo</a></button>
+                <button><a href="http://www.youtube.com/" target="blank">Source Code</a></button>
+              </div>
+            </div>
+          </div>
+      
+          <div class="my-card reveal-up" id="card-5">
+            <img src="images/appdev.png" alt="" id="card-image"/>
+            <hr>
+            <div class="card-data">
+              <div class="head1">My Project 5</div>
+              <div class="head2">
+                Lorem ipsum dolor sit amet consec adipisicing elit. Laborum
+                nostrum, quidem pariatur quam, corrupti libero
+              </div>
+              <div class="head3">
+                <button><a href="http://www.youtube.com/" target="blank">Demo</a></button>
+                <button><a href="http://www.youtube.com/" target="blank">Source Code</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="my-card reveal-right" id="card-6">
+            <img src="images/softwaredev.png" alt="" id="card-image"/>
+            <hr>
+            <div class="card-data">
+              <div class="head1">My Project 6</div>
+              <div class="head2">
+                Lorem ipsum dolor sit amet consec adipisicing elit. Laborum
+                nostrum, quidem pariatur quam, corrupti libero
+              </div>
+              <div class="head3">
+                <button><a href="http://www.youtube.com/" target="blank">Demo</a></button>
+                <button><a href="http://www.youtube.com/" target="blank">Source Code</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="my-card reveal-left" id="card-7">
+            <img src="images/webdev.png" alt="" id="card-image"/>
+            <hr>
+            <div class="card-data">
+              <div class="head1">My Project 7</div>
+              <div class="head2">
+                Lorem ipsum dolor sit amet consec adipisicing elit. Laborum
+                nostrum, quidem pariatur quam, corrupti libero
+              </div>
+              <div class="head3">
+                <button><a href="http://www.youtube.com/" target="blank">Demo</a></button>
+                <button><a href="http://www.youtube.com/" target="blank">Source Code</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="my-card reveal-down" id="card-8">
+            <img src="images/digitalmarketing.png" alt="" id="card-image"/>
+            <hr>
+            <div class="card-data">
+              <div class="head1">My Project 8</div>
+              <div class="head2">
+                Lorem ipsum dolor sit amet consec adipisicing elit. Laborum
+                nostrum, quidem pariatur quam, corrupti libero
+              </div>
+              <div class="head3">
+                <button><a href="http://www.youtube.com/" target="blank">Demo</a></button>
+                <button><a href="http://www.youtube.com/" target="blank">Source Code</a></button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card-container">
-          <div class="thecard reveal-right" onclick="Rotatecard3()" id="card3">
-            <div class="thefront">
-              <img src="images/softwaredev.png" alt="" />
-              <h1>Software Development</h1>
-            </div>
-
-            <div class="theback">
-              <h1>Back of Card</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                aliquam?
-              </p>
-            </div>
-          </div>
-          <div class="thecard reveal-left" onclick="Rotatecard4()" id="card4">
-            <div class="thefront">
-              <img src="images/digitalmarketing.png" alt="" />
-              <h1>Graphics Designing</h1>
-            </div>
-
-            <div class="theback">
-              <h1>Back of Card</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                aliquam?
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div class="thecard reveal-left" onclick="Rotatecard5()" id="card5">
-            <div class="thefront">
-              <img src="images/webdev.png" alt="" />
-              <h1>Web Development</h1>
-            </div>
-
-            <div class="theback">
-              <h1>Back of Card</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                aliquam?
-              </p>
-            </div>
-          </div>
-          <div class="thecard reveal-right" onclick="Rotatecard6()" id="card6">
-            <div class="thefront">
-              <img src="images/appdev.png" alt="" />
-              <h1>Application Development</h1>
-            </div>
-
-            <div class="theback">
-              <h1>Back of Card</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                aliquam?
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div class="thecard reveal-right" onclick="Rotatecard7()" id="card7">
-            <div class="thefront">
-              <img src="images/softwaredev.png" alt="" />
-              <h1>Software Development</h1>
-            </div>
-
-            <div class="theback">
-              <h1>Back of Card</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                aliquam?
-              </p>
-            </div>
-          </div>
-          <div class="thecard reveal-left" onclick="Rotatecard8()" id="card8">
-            <div class="thefront">
-              <img src="images/digitalmarketing.png" alt="" />
-              <h1>Graphics Designing</h1>
-            </div>
-
-            <div class="theback">
-              <h1>Back of Card</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                aliquam?
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  </div>
 
     <footer>
         <div class="head1">For more details you can also Visit</div>
@@ -280,6 +292,7 @@
               </nav>
         </div>
     </footer>
+
   </body>
   <script src="js/cardrotation.js"></script> 
   <script src="js/navbar.js"></script>
