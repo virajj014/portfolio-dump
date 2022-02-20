@@ -1,0 +1,54 @@
+.reveal-up {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s all ease;
+    overflow: hidden;
+  }
+
+  .reveal-up.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .reveal-down {
+    position: relative;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: 1s all ease;
+    overflow: hidden;
+
+  }
+
+  .reveal-down.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .reveal-right {
+    position: relative;
+    transform: translateX(50px);
+    opacity: 0;
+    transition: 1s all ease;
+    overflow: hidden;
+
+  }
+
+  .reveal-right.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .reveal-left {
+    position: relative;
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: 1s all ease;
+    overflow: hidden;
+
+  }
+
+  .reveal-left.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
